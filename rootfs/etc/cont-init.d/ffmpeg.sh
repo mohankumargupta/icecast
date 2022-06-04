@@ -10,6 +10,6 @@ echo 'echo moomooomoo' >> /etc/services.d/ffmpeg_stream_name/run
 echo 'break' >> /etc/services.d/ffmpeg_stream_name/run
 echo 'fi' >> /etc/services.d/ffmpeg_stream_name/run
 echo 'done' >> /etc/services.d/ffmpeg_stream_name/run
-echo 'ffmpeg -i ' >> /etc/services.d/ffmpeg_stream_name/run
+echo 'ffmpeg -re -i https://mirchiplaylive.akamaized.net/hls/live/2036929/MUM/MRETRO_Auto.m3u8 -c:a libmp3lame -b:a 128k -content_type audio/mpeg -f mp3 icecast://source:password@localhost:8000/mirchi' >> /etc/services.d/ffmpeg_stream_name/run
 
 chmod +x /etc/services.d/ffmpeg_stream_name/run
