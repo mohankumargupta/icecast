@@ -16,6 +16,6 @@ do
                             -template /usr/share/tempio/ffmpeg.gtpl \
                             -out /etc/services.d/ffmpeg_${stream_name}/run
  chmod +x /etc/services.d/ffmpeg_${stream_name}/run
- cat /etc/services.d/ffmpeg_${stream_name}/run
+ #cat /etc/services.d/ffmpeg_${stream_name}/run
  #echo "----"
 done
