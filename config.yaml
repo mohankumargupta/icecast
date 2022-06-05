@@ -1,7 +1,8 @@
 name: "Icecast"
 description: "An icecast2 server with ffmpeg streams hosted"
-version: "0.0.6"
-slug: "icecast2"
+url: "http://github.com/mohankumargupta/ha-addons/Icecast"
+version: "0.0.7"
+slug: "icecast"
 init: false
 arch:
   - aarch64
