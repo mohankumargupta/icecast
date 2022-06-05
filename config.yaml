@@ -1,6 +1,6 @@
 name: "Icecast"
 description: "An icecast2 server with ffmpeg streams hosted"
-version: "0.0.4"
+version: "0.0.5"
 slug: "icecast2"
 init: false
 arch:
@@ -12,3 +12,11 @@ arch:
 startup: services
 ports:
   8000/tcp: 8000
+options:
+  streams:
+    - name: iheart cafe
+      stream_url: " https://stream.revma.ihrhls.com/zc6951/hls.m3u8"
+schema:
+  streams:
+    - name: str
+      stream_url: str
