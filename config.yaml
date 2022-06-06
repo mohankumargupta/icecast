@@ -1,7 +1,7 @@
 name: "Icecast"
 description: "An icecast2 server with ffmpeg streams hosted"
 url: "http://github.com/mohankumargupta/ha-addons/Icecast"
-version: "0.0.8"
+version: "0.0.9"
 slug: "icecast"
 init: false
 arch:
@@ -15,9 +15,11 @@ ports:
   8000/tcp: 8000
 options:
   streams:
-    - name: iheartcafe
+    - name: iHeartRadio Cafe
+      mountpoint: iheartcafe
       stream_url: https://stream.revma.ihrhls.com/zc6951/hls.m3u8
 schema:
   streams:
     - name: str
+      mountpoint: str
       stream_url: str
