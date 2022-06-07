@@ -16,14 +16,6 @@ A possible solution is to push those streams to a streaming server like Icecast 
 - access to Icecast's admin page through Home Assistant Sidebar menu.
 - can pre-configure multiple input streams to be pushed to the Icecast server.
 
-- Media URLs are then are available on the client device in the following form:
-  **http://<HA_IP_ADDRESS>:8000/<MOUNTPOINT>**
-
-  HA_IP_ADDRESS: LAN IP address of the Home Assistant instance.
-  MOUNTPOINT: Stream name specified by user
-
-  You can test these media urls in a client like VLC player, then use it in Home Assistant by running the media_player.play_media service .
-
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
