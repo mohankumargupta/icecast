@@ -8,13 +8,21 @@ Installs the Icecast streaming server as a Home Assistant addon.
 
 Certain radio stations and live streams won't play on a device like a Google Home Mini, especially those HLS streams with a URL ending in m3u8 .
 
-A possible solution is to push those streams to a streaming server like Icecast that is on the local network, then send the generated media URL on the Icecast server to the Google Home Mini.
+A possible solution is to push those streams to a streaming server like Icecast that is on the local network, then the Google Home Mini can use the mountpoint created on the Icecast server.
 
 ## Features
 
 - starts an Icecast server
-- access to Icecast's admin page through Home Assistant Sidebar menu.
+- access to Icecast's dashboard/admin page through Home Assistant Sidebar menu.
 - can pre-configure multiple input streams to be pushed to the Icecast server.
+
+## Installation
+
+Go to **Settings** -> **Add-ons** -> **ADD-ON STORE**
+
+Click on the three dots on the top right corner and select **Repositories**
+
+Copy/paste the URL of this repo and click **ADD** , then **CLOSE**
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
