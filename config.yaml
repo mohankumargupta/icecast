@@ -1,7 +1,7 @@
 name: "Icecast"
 description: "An icecast2 server with ffmpeg streams hosted"
 url: "http://github.com/mohankumargupta/ha-addons/Icecast"
-version: "0.0.9"
+version: "0.0.10"
 slug: "icecast"
 init: false
 arch:
@@ -11,6 +11,9 @@ arch:
   - armv7
   - i386
 startup: services
+ingress: true
+ingress_port: 8099
+ingress_stream: true
 ports:
   8000/tcp: 8000
 options:

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/with-contenv bashio
 
 mkdir -p /etc/services.d/icecast2
 
