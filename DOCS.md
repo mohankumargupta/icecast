@@ -18,4 +18,4 @@ Here is the snippet that appears under the **streams** key:
   stream_url: https://stream.revma.ihrhls.com/zc6951/hls.m3u8
 ```
 
-[default_configuration]: https://github.com/mohankumargupta/icecast/raw/master/images/default_configuration.png
+[default_configuration]: https://raw.githubusercontent.com/mohankumargupta/icecast/master/images/default-configuration.png
