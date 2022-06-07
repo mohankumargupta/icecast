@@ -16,7 +16,7 @@ Here is the result on the Icecast dashboard/status page:
 
 ![icecast status default config][icecast_default_config]
 
-Here is the important snippet listed under **Options** heading
+Here is the important snippet listed under **Options** heading in the addon's configuration page.
 
 ```yaml
 - name: iHeartRadio Cafe
@@ -44,6 +44,8 @@ The full media URLs is in the following form:
 where HA_IP_ADDRESS is the LAN IP address of the Home Assistant instance
 
 eg. if your home assistant IP address is 192.168.1.10, and the mountpoint is iheartcafe, then the media URL is: http://192.168.1.10:8000/iheartcafe
+
+The mountpoint must be unique for each stream that you want to push to the Icecast server, and contain no spaces.
 
 [default_configuration]: https://raw.githubusercontent.com/mohankumargupta/icecast/master/images/default-configuration.png
 [icecast_default_config]: https://raw.githubusercontent.com/mohankumargupta/icecast/master/images/icecast-default-configuration.png
